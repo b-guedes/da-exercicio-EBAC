@@ -32,7 +32,7 @@ print(df.info())
 # visuzalização
 plt.figure(figsize=(8,5))
 sns.set_theme(style="darkgrid")
-grap = sns.lineplot(data=df, x='Dia', y='Venda', color='g')
-plt.title('Preço da gasolina no período')
+grap = sns.lineplot(data=df, x='dia', y='venda', color='r')
+plt.title('Preço da gasolina em jul-21')
 plt.show()
 
